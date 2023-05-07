@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Lekton-Bold
+font link: https://fonts.google.com/specimen/Lekton
+font author: ISIA Urbino
+font author site: http://lektongroups.blogspot.ca/
+Slogan Font: Lekton-Bold
+
+icon designer: Creative Stall
+icon designer link: /creativestall
+        
+{"bg":"#450A33","font":"#FFFFFF","icon":"#E8185E","slogan":"#ffffff"}
+      
