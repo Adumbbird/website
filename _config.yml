@@ -49,7 +49,7 @@ instagram_username: birdsbored
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
-# disqus_shortname: sujay-kundu
+disqus_shortname: birdsbored
 #hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
@@ -59,8 +59,8 @@ instagram_username: birdsbored
 # mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
-# getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-# formspree_email: johndoe@gmail.com
+# getform_endpoint: 5ebf1026-102c-47f4-aea8-1b0c77df2bd4
+formspree_email: mbjewevw
 
 # releases - widget can be (sidebar, modal or embed)
 #olvy_organization: devlopr
@@ -113,12 +113,6 @@ defaults:
     values:
       layout: author
       permalink: /blog/authors/:slug
-  -
-    scope:
-      path: ""
-      type: projects
-    values:
-      layout: project
   -
     scope:
       path: 'assets/**'
