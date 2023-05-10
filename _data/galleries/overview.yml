@@ -1,9 +1,9 @@
 -
-  title: Mountains
-  directory: mountains
+  title: Projects
+  directory: projects
   preview:
-    filename: 1.jpg
-    original: 1-thumbnail.jpg
+    filename: ue5.png
+    original: ue5.png
     sizes:
-    - 1-thumbnail.jpg
-    thumbnail: 1-thumbnail.jpg
+    - ue5.png
+    thumbnail: ue5.png

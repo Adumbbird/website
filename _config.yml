@@ -13,11 +13,11 @@ urls:
     - text: About
       url: /about
     - text: Projects
-      url: /projects
+      url: /blog/categories/
     - text: Blog
       url: /blog
     - text: Photography
-      url: "https://photos.birdsbored.com"
+      url: https://photos.birdsbored.com
     - text: Shop
       url : /shop
     - text: Contact
