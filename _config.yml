@@ -17,7 +17,7 @@ urls:
     - text: Blog
       url: /blog
     - text: Photography
-      url: https://photos.birdsbored.com
+      permalink: /photography
     - text: Shop
       url : /shop
     - text: Contact
@@ -27,12 +27,12 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 #author_logo: logo/adamavatar.png
-author: BirdsBored
-author_bio: "Bird is bored, are you?"
-author_email: "adumbbird@birdsbored.com"
-author_location: Washington State
-author_website_url: "https://birdsbored.com"
-typewrite-text: Bird is bored, are you?
+#author: BirdsBored
+#author_bio: "Bird is bored, are you?"
+#author_email: "adumbbird@birdsbored.com"
+#author_location: Washington State
+#author_website_url: "https://birdsbored.com"
+#typewrite-text: Bird is bored, are you?
 hero_cover_img: logo/smallercover.png # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # social links
