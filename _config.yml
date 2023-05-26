@@ -14,8 +14,6 @@ urls:
       url: /about
     - text: Projects
       url: /blog/categories/
-    - text: Blog
-      url: /blog
     - text: Photography
       permalink: /photography
     - text: Shop

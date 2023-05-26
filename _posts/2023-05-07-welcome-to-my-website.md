@@ -9,6 +9,7 @@ thumbnail: /assets/img/posts/code.jpg
 keywords: Introduction,what to expect, games, projects, automation
 permalink: /blog/welcome-to-BirdsBored/
 usemathjax: true
+comments: true
 ---
 
 
