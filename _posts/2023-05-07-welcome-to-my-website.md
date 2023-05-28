@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to my website!"
 summary: "Here's what you can expect"
-author: Adam Siegal
+author: adumbbird
 date: '2023-05-07 11:17:23 +0530'
 category: website
 thumbnail: /assets/img/posts/code.jpg

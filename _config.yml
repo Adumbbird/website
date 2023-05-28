@@ -15,7 +15,7 @@ urls:
     - text: Projects
       url: /blog/categories/
     - text: Photography
-      permalink: /photography
+      url: /photography
     - text: Shop
       url : /shop
     - text: Contact
@@ -24,13 +24,14 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-#author_logo: logo/adamavatar.png
-#author: BirdsBored
-#author_bio: "Bird is bored, are you?"
-#author_email: "adumbbird@birdsbored.com"
-#author_location: Washington State
-#author_website_url: "https://birdsbored.com"
+author_logo: logo/bigdumbbird.png
+author: BirdsBored
+author_bio: "Bird is bored, are you?"
+author_email: "adumbbird@birdsbored.com"
+author_location: Washington State
+author_website_url: "https://birdsbored.com"
 #typewrite-text: Bird is bored, are you?
+
 hero_cover_img: logo/smallercover.png # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # social links
@@ -54,7 +55,7 @@ disqus_shortname: birdsbored
 #_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
-# mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+mailchimp_form_url: https://birdsbored.us21.list-manage.com/subscribe/post?u=75e0fb8e29c83b2087794125b&amp;id=885b815d1b
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 5ebf1026-102c-47f4-aea8-1b0c77df2bd4

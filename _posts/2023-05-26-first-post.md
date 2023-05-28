@@ -2,7 +2,7 @@
 layout: post
 title:  "First post!"
 summary: "Nothing much to this post"
-author: Adam Siegal
+author: adumbbird
 date: '2023-05-26 2:39:00 +0530'
 category: ue5
 thumbnail: /assets/img/posts/code.jpg

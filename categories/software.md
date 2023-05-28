@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: category
 title: software
 permalink: /blog/categories/software/
+picture: software.jpg
 ---
 
 <h1> {{ page.title }} </h1>

@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: category
 title: photography
 permalink: /blog/categories/photography/
+picture: nikon.png
 ---
 
 <h1> {{ page.title }} </h1>

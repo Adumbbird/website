@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: category
 title: website
 permalink: /blog/categories/website/
+picture: jekyll.jpg
 ---
 
 <h1> {{ page.title }} </h1>

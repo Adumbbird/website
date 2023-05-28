@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: category
 title: ue5
 permalink: /blog/categories/ue5/
+picture: ue5.png
 ---
 
 <h1> {{ page.title }} </h1>
