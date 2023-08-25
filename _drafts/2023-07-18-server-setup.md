@@ -376,3 +376,13 @@ Edit the Configuration File: Open the newly created configuration file in a text
 
 Test the Configuration: Before applying the new configuration, test it for syntax errors. Open a command prompt with administrator privileges and run:
 {% highlight posh %}
+
+It took me some time to figure out how to get reverse proxy working. I havent been able to update the services to accept firebase yet but it's much easier to connect to each one like this. 
+
+{% highlight posh %}
+ <nginx config goes here>
+{% endhighlight %}
+
+Instead of opening up port 80, I forwarded port 8080 instead.
+
+With Namecheap dynamic DNS set up and configured. I can go to http://host.birdsbored.com:8080/SERVICE to access the service. 
