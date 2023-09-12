@@ -336,10 +336,56 @@ Then you'll want to click on "Manage connection on a per-app basis", and "Only a
 
 ### Tdarr
 
+I used winget to install some prerequisites:
+
+{% highlight posh %}
+    winget install handbrake.handbrake.cli
+    winget install gyan.ffmpeg
+    winget install moritzbunkus.mkvtoolnix
+{% endhighlight %}
+
 download and extract
 https://github.com/HaveAGitGat/Tdarr/releases
 
+I extracted it to I:\Tdarr and ran Tdarr_Updater.exe. This will install both the node and the server in the same directory. The window will close when it's finished. 
 
+First you'll want to execute Tdarr_server.exe and then Tdar_node.exe. Once those have ran, you can close the windows. 
+
+Then you'll want to go to ..Tdar\configs and edit the Tdar_Node_Config.json. This is mine:
+
+{% highlight json %}
+{
+    "nodeName": "host-node",
+    "serverIP": "127.0.0.1",
+    "serverPort": "8266",
+    "handbrakePath": "C:\\Users\\adumb\\AppData\\Local\\Microsoft\\Winget\\Links\\HandBrakeCLI.exe",
+    "ffmpegPath": "C:\\Users\\adumb\\AppData\\Local\\Microsoft\\Winget\\Links\\ffmpeg.exe",
+    "mkvpropeditPath": "C:\\Program Files\\MKVToolNix\\mkvpropedit.exe",
+    "pathTranslators": [
+        {
+            "server": "D:\",
+            "node": "D:\"
+        }
+    ],
+    "logLevel": "info",
+    "priority": -1,
+    "cronPluginUpdate": ""
+}
+{% endhighlight %}
+
+
+Then we can set up the service with the following commands:
+{% highlight posh %}
+    nssm.exe install tdarr_server "I:\Tdarr\Tdarr_Server\tdarr_server.exe"
+    nssm.exe set tdarr_server AppDirectory "I:\Transmission\Transmission"
+    nssm.exe set tdarr_server AppExit Default Exit
+    nssm.exe set tdarr_server Start SERVICE_DELAYED_AUTO_START
+
+    nssm.exe install tdarr_node "I:\Tdarr\Tdarr_Node\tdarr_node.exe"
+    nssm.exe set tdarr_node AppDirectory "I:\Tdarr\Tdarr_Node"
+    nssm.exe set tdarr_node AppExit Default Exit
+    nssm.exe set tdarr_node Start SERVICE_DELAYED_AUTO_START
+{% endhighlight %}
 ## Additional Services
 
 ### AMP by CubeCoders
